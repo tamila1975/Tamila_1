@@ -1,0 +1,5 @@
+text = ("Добрый вечер столица")
+print(text.replace(" ", "-"))
+text2 = text.split(" ")
+text = ("-".join(text2))
+print(text)

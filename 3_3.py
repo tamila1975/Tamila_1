@@ -1,0 +1,6 @@
+first_name = input("Введи свое имя")
+age = input("Введи свой возраст")
+city = input("Введи свой город")
+print(first_name.upper(), age, city.upper())
+print(first_name.title(), age, city.title())
+print(first_name.upper(),"-", age, "-", city.upper())
